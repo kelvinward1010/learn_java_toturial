@@ -2,7 +2,7 @@ package variables;
 
 public class variable {
     public static void main(String[] args) {
-        variableservice.show_2();
+        variableservice.show_3_swrap();
     }
 }
 
@@ -42,5 +42,19 @@ class variableservice {
         int y2 = 6;
         int z2 = 50;
         System.out.println(x2 + y2 + z2);
+    }
+
+
+    static void show_3_swrap() {
+        String x = "Kelvin";
+        String y = "Ward";
+        String temp;
+
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println(x);
+        System.out.println(y);
     }
 }
