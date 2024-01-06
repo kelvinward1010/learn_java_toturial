@@ -9,20 +9,25 @@ public class input {
 
 class test_1 {
     static void main(){
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What's your name? ");
-        String name = scanner.nextLine();
+        // you can use like: Scanner scanner = new Scanner(System.in);
+        // but you have a wanring scanner
 
-        System.out.println("How's old are you? ");
-        int age = scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
 
-        scanner.nextLine(); // if not this line, your broke up
-        System.out.println("What's your favorite food? ");
-        String food = scanner.nextLine();
+            System.out.println("What's your name? ");
+            String name = scanner.nextLine();
 
-        System.out.println("Hello " + name);
-        System.out.println("You are " + age + " years old!");
-        System.out.println("You like " + food);
+            System.out.println("How's old are you? ");
+            int age = scanner.nextInt();
+
+            scanner.nextLine(); // if not this line, your broke up
+            System.out.println("What's your favorite food? ");
+            String food = scanner.nextLine();
+
+            System.out.println("Hello " + name);
+            System.out.println("You are " + age + " years old!");
+            System.out.println("You like " + food);
+        }
     }
 }
