@@ -12,4 +12,9 @@ public class random {
 
         System.out.println(z);
     }
+
+    public static int nextInt(int number) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'nextInt'");
+    }
 }

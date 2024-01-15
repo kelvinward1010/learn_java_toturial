@@ -1,4 +1,4 @@
-package switchstate;
+package basic_concept.switchstate;
 
 public class switchstate {
     public static void main(String[] args) {

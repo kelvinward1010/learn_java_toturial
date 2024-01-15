@@ -1,4 +1,4 @@
-package datatype;
+package basic_concept.datatype;
 
 public class datatype {
     public static void main(String[] args) {

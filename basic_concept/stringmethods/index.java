@@ -1,4 +1,4 @@
-package stringmethods;
+package basic_concept.stringmethods;
 
 
 public class index {

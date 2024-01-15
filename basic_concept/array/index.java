@@ -1,4 +1,4 @@
-package array;
+package basic_concept.array;
 
 public class index{
     public static void main(String[] args) {

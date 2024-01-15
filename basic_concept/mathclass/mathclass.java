@@ -1,4 +1,4 @@
-package mathclass;
+package basic_concept.mathclass;
 
 import java.util.Scanner;
 
